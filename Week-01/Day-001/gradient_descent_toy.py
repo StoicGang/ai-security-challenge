@@ -30,20 +30,24 @@ n = len(x)
 
 for epoch in range(epochs):
 
-    # Predictions
+    # Prediction
     y_pred = w * x + b
 
-    # Mean Squared Error
+    # Loss
     loss = np.mean((y - y_pred) ** 2)
     loss_history.append(loss)
+
+    # Print every 10 iterations
+    if epoch % 10 == 0:
+        print(f"Iteration {epoch:3d} | Loss = {loss:.4f}")
 
     # Compute gradients
     dw = (-2 / n) * np.sum(x * (y - y_pred))
     db = (-2 / n) * np.sum(y - y_pred)
 
     # Update parameters
-    w = w - learning_rate * dw
-    b = b - learning_rate * db
+    w -= learning_rate * dw
+    b -= learning_rate * db
 
 # -------------------------
 # 4. Results
