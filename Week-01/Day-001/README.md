@@ -1,50 +1,66 @@
 # Day 001 — ML Fundamentals — Loss Functions & Gradient Descent
 
-**Week 1 · 📖 Learn** · [🏠 Week](../README.md) · [📁 Root](../../README.md) · [Day 002 →](../Day-002/)
+**Week 1** · ✅ Already Completed · [🏠 Week 1](../README.md) · [📁 Root](../../README.md) · [Day 002 →](../Day-002/)
 
 ---
 
-## What to Read
-Hands-On Machine Learning (Géron) ch. 1–2 — loss function and gradient descent sections only.
-3Blue1Brown Neural Networks videos 1 and 2.
+## Today's Task
+
+**Read** (~60 min (already completed)): Hands-On Machine Learning (Géron), ch. 1–2 — loss function and gradient descent sections. 3Blue1Brown 'Neural Networks' videos 1–2.
+
+**Build** (~45 min (already completed)): Implement gradient descent from scratch in NumPy on a toy linear-regression problem — 1 feature, 20 data points. Print loss every 10th iteration. Plot the loss curve.
+
+**Note:** Already completed — write up the learning log below from memory of what you did.
 
 ---
 
-## What to Build
-Implement gradient descent on a toy linear-regression problem **from scratch in NumPy** — no sklearn, no PyTorch. Use 1 feature and 20 data points. Print loss at every 10th iteration. Plot the loss curve.
+## Learning Log
+> Fill in after completing the day. This markdown file — not a code file — is the actual deliverable. A code snippet can illustrate a point, but the writing is what proves understanding.
 
----
+### The Challenge
+<!-- What problem were you actually trying to solve today, in one sentence? -->
 
-## Deliverable
-> Everything listed here must exist on disk and be committed before this day is done.
 
-`gradient_descent_toy.py` — script runs without error, loss decreases over iterations.
-`loss_curve.png` — plot of loss over iterations saved to disk.
+### Key Concept
+<!-- The idea in plain English — no jargon, as if explaining to a junior. -->
 
----
 
-## Key Insight
-> Fill this in after completing the day.
-> Write the **mechanism** in your own words — not the steps you followed, but **why** it works the way it does.
-> If you cannot write this paragraph, the concept is not yet understood. Re-read, then try again.
+### How I Approached It
+<!-- Numbered steps, briefly. This is the only "steps" section — everything else below should be about the mechanism, not the process. -->
+1.
+2.
+3.
 
-<!-- Explain in your own words: what is the loss function actually measuring, and why does gradient descent move in the direction of the negative gradient rather than the positive gradient? -->
+### Code Snippet (if relevant)
+<!-- 5–10 lines max, only if it illustrates the concept. Not the whole file. -->
+```python
 
-*Your insight here.*
+```
+
+### Key Learning
+<!-- The one thing you understand now that you didn't before today. -->
+
+
+### Ah-ha Moment
+<!-- The specific instant it clicked, and what made it click. -->
+
+
+### What I'd Do Differently
+<!-- If you redid today, what would you change? -->
+
+
+### Residual Questions
+<!-- What still doesn't make sense? Carry this into tomorrow or the Day 6 buffer. -->
+
 
 ---
 
 ## Day Checklist
-- [x] Reading done
-- [x] Build / lab complete
-- [x] Every deliverable listed above exists on disk
-- [x] Key Insight paragraph written (mechanism, not steps)
-- [x] Everything committed to GitHub
+- [x] Reading done (within time box — don't let one resource eat the whole day)
+- [x] Build complete
+- [x] Learning Log fully written (all 8 sections — this .md file IS the deliverable)
+- [x] Committed to GitHub
 
 ---
 
-[🏠 Week](../README.md) · [📁 Root](../../README.md) · [Day 002 →](../Day-002/)
-
-## References 
-- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://0-lucas.github.io/digital-garden/99.-Books/Hands-on-Machine-Learning.pdf)
-- [Youtube-course](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1)
+[🏠 Week 1](../README.md) · [📁 Root](../../README.md) · [Day 002 →](../Day-002/)
