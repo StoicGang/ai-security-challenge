@@ -30,7 +30,7 @@ To understand how sentence embeddings convert text into numerical vectors that c
 <!-- The idea in plain English — no jargon, as if explaining to a junior. -->
 1. A sentence embedding is a numerical representation of a sentence that captures its overall meaning rather than the exact words used. Sentences with similar meanings are placed closer together in a high-dimensional space, allowing us to compare meaning using cosine similarity instead of comparing words one by one.
 2. Skip-Gram and Negative Sampling are training techniques used in Word2Vec to learn word embeddings. They provide historical context but are not the primary concept of today's exercise.
-
+3. Embeddings don't exist because computers can't compare text. They exist because we want mathematical operations to reflect semantic meaning instead of surface-level word matching.
 
 ### How I Approached It
 <!-- Numbered steps, briefly. This is the only "steps" section — everything else below should be about the mechanism, not the process. -->

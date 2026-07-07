@@ -85,14 +85,15 @@ Imagine a librarian helping you find a book.
 With keyword search, you ask for a book containing the exact words "SQL Injection". If another book explains the same attack using different wording, the librarian may not find it.
 
 With semantic search, the librarian understands what you're looking for. Even if a book discusses unsanitized user input instead of explicitly saying SQL injection, the librarian recognizes the concept and recommends it because the meanings are closely related.
+
 ---
 
 ## Day Checklist
-- [ ] Reading done (within time box - don't let one resource eat the whole day)
-- [ ] Build complete
-- [ ] Deliverable exists exactly as specified above
-- [ ] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
-- [ ] Committed to GitHub
+- [x] Reading done (within time box - don't let one resource eat the whole day)
+- [x] Build complete
+- [x] Deliverable exists exactly as specified above
+- [x] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
+- [x] Committed to GitHub
 
 ---
 
