@@ -2,21 +2,17 @@
 
 **Week 1** · 🔧 Corrected Scope · [← Day 002](../Day-002/) · [🏠 Week 1](../README.md) · [📁 Root](../../README.md) · [Day 004 →](../Day-004/)
 
----
-
 ## Today's Task
-
+---
 **Read** (15–20 min): Hugging Face — 'Byte-Pair Encoding tokenization' conceptual page. **This one page only** — not the API reference.
 
 **Build** (30–40 min): Install `tiktoken` (`pip install tiktoken`). Tokenize 3 sentences you write yourself. Print the tokens and their IDs. Count: does a 10-word sentence produce more or fewer than 10 tokens? Why?
 
 **Note:** No custom tokenizer this week. Use the library, observe the behavior, understand the concept. Building BPE from scratch is a stretch goal for later, once the concept is solid.
 
----
 
 ## Learning Log
-> Fill in after completing the day. This markdown file — not a code file — is the actual deliverable. A code snippet can illustrate a point, but the writing is what proves understanding.
-
+---
 
 ### The Challenge
 <!-- What problem were you actually trying to solve today, in one sentence? -->

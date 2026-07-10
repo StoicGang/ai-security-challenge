@@ -2,25 +2,20 @@
 
 **Week 1 - Corrected Scope** | [Day 003](../Day-003/) | [Week 1](../README.md) | [Root](../../README.md) | [Day 005](../Day-005/)
 
----
-
 ## Today's Task
-
+---
 **Read** (15 min): Jay Alammar - 'The Illustrated Word2Vec' - first 3 diagrams/sections only, not the full article.
 
 **Build** (30-40 min): Install sentence-transformers (pip install sentence-transformers). Embed 5 sentences you write yourself (2 similar in meaning, 3 unrelated). Compute cosine similarity between pairs using sklearn.metrics.pairwise.cosine_similarity.
 
 ## Deliverable
-> This is the specific, measurable output that must exist before the day is done.
 
 This Learning Log with the cosine similarity scores for at least 2 sentence pairs (1 similar, 1 unrelated) recorded and compared.
 
 **Note:** No NumPy-from-scratch embedding math this week. Use the library, observe what similarity scores look like for similar vs. unrelated sentences.
 
----
-
 ## Learning Log
-> Fill in after completing the day. This markdown file — not a code file — is the actual deliverable. A code snippet can illustrate a point, but the writing is what proves understanding.
+---
 
 ### The Challenge
 <!-- What problem were you actually trying to solve today, in one sentence? -->
@@ -32,11 +27,6 @@ To understand how sentence embeddings convert text into numerical vectors that c
 2. Skip-Gram and Negative Sampling are training techniques used in Word2Vec to learn word embeddings. They provide historical context but are not the primary concept of today's exercise.
 3. Embeddings don't exist because computers can't compare text. They exist because we want mathematical operations to reflect semantic meaning instead of surface-level word matching.
 
-### How I Approached It
-<!-- Numbered steps, briefly. This is the only "steps" section — everything else below should be about the mechanism, not the process. -->
-1.
-2.
-3.
 
 ### Code Snippet (if relevant)
 <!-- 5-10 lines max, only if it illustrates the concept. Not the whole file. -->

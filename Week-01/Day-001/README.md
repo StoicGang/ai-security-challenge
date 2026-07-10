@@ -2,21 +2,18 @@
 
 **Week 1** · ✅ Already Completed · [🏠 Week 1](../README.md) · [📁 Root](../../README.md) · [Day 002 →](../Day-002/)
 
----
 
 ## Today's Task
-
+---
 **Read** (~60 min (already completed)): Hands-On Machine Learning (Géron), ch. 1–2 — loss function and gradient descent sections. 3Blue1Brown 'Neural Networks' videos 1–2.
 
 **Build** (~45 min (already completed)): Implement gradient descent from scratch in NumPy on a toy linear-regression problem — 1 feature, 20 data points. Print loss every 10th iteration. Plot the loss curve.
 
 **Note:** Already completed — write up the learning log below from memory of what you did.
 
----
 
 ## Learning Log
-> Fill in after completing the day. This markdown file — not a code file — is the actual deliverable. A code snippet can illustrate a point, but the writing is what proves understanding.
-
+---
 ### The Challenge
 <!-- What problem were you actually trying to solve today, in one sentence? -->
 

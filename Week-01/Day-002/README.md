@@ -12,11 +12,8 @@
 
 **Note:** Already completed — write up the learning log below.
 
----
-
 ## Learning Log
-> Fill in after completing the day. This markdown file — not a code file — is the actual deliverable. A code snippet can illustrate a point, but the writing is what proves understanding.
-
+---
 ### The Challenge
 <!-- What problem were you actually trying to solve today, in one sentence? -->
 
@@ -40,7 +37,7 @@
 5. Trained while monitoring loss.
 6. Evaluated accuracy.
 
-### Code Snippet (if relevant)
+### Code Snippet 
 <!-- 5–10 lines max, only if it illustrates the concept. Not the whole file. -->
 ```python
 X, y = make_moons(n_samples=200, noise=0.2, random_state=42) 
