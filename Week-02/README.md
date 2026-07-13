@@ -27,7 +27,7 @@ By Day 12: a working small RAG query - retrieve the right chunk from your own no
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
 | DONE | [Day 008](Day-008/) | Self-Attention - The Core Idea | 15 min |
-| TODO | [Day 009](Day-009/) | Context Windows and Positional Encoding | 15 min |
+| DONE | [Day 009](Day-009/) | Context Windows and Positional Encoding | 15 min |
 | TODO | [Day 010](Day-010/) | RAG Concept and Chunking | 15-20 min |
 | TODO | [Day 011](Day-011/) | Vector Databases - Storing and Retrieving | 15 min |
 | TODO | [Day 012](Day-012/) | Week 2 Challenge - RAG Q&A | n/a |
