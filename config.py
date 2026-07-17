@@ -1,7 +1,31 @@
 from pathlib import Path
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
  
 # Project Root
 ROOT_DIR = Path(__file__).resolve().parent
+
+# Environment variable
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+GENAI_MODEL_NAME = os.getenv(
+    "GENAI_MODEL_NAME",
+    "models/gemini-3.5-flash",
+)
+
+if not GENAI_MODEL_NAME.startswith("models/"):
+    GENAI_MODEL_NAME = f"models/{GENAI_MODEL_NAME}"
+
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY not found in .env")
+
+# Embedding model (for sentence-transformers)
+EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
+
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY not found in .env")
 
 # Week Directories
 WEEK_01 = ROOT_DIR / "Week-01"
@@ -17,7 +41,7 @@ WEEK_08 = ROOT_DIR / "Week-08"
 COMMON_DIR = ROOT_DIR / "common"
  
 # Global Defaults
-MODEL_NAME = "all-MiniLM-L6-v2"
+# NOTE: Do not override model names below; use the env vars instead.
 
 # ChromaDB collection name
 COLLECTION_NAME = "cybersecurity"

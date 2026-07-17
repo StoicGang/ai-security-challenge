@@ -30,7 +30,7 @@ By Day 12: a working small RAG query - retrieve the right chunk from your own no
 | DONE | [Day 009](Day-009/) | Context Windows and Positional Encoding | 15 min |
 | DONE | [Day 010](Day-010/) | RAG Concept and Chunking | 15-20 min |
 | DONE | [Day 011](Day-011/) | Vector Databases - Storing and Retrieving & Creating Micro usable code | 15 min |
-| TODO | [Day 012](Day-012/) | Week 2 Challenge - RAG Q&A | n/a |
+| DONE | [Day 012](Day-012/) | Week 2 Challenge - RAG Q&A | n/a |
 | TODO | [Day 013](Day-013/) | Week 2 Buffer and Review | 20-30 min |
 | TODO | [Day 014](Day-014/) | Week 2 to Week 3 Handoff | 10 min max |
 

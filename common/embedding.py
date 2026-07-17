@@ -1,8 +1,9 @@
 from sentence_transformers import SentenceTransformer
 
-from config import MODEL_NAME
+from config import EMBEDDING_MODEL_NAME
 
-_model = SentenceTransformer(MODEL_NAME)
+# SentenceTransformer expects a huggingface model id like "all-MiniLM-L6-v2"
+_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
 
 
 def generate_embeddings(texts):
