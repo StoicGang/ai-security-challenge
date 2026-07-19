@@ -49,7 +49,7 @@ def main():
 
     results = query_collection(collection=collection,
                                query_embedding=query_embedding,
-                               n_results=1,
+                               n_results=5,
                                )
 
     retrieved_chunks = results["documents"][0]

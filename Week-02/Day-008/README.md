@@ -39,7 +39,7 @@ $$
 3. Multiplied each value vector by its attention weight and added the results to create a new context-aware representation of the word.
 
 ### Table 
-consider vector represent of the query is $Q_{drinks}=[1,1]$
+consider vector represention of the query is $Q_{drinks}=[1,1]$
 
 | Word      | Key (K)  | $$Q_{drinks} \cdot K$$ | Softmax weight | Value (V) | Weighted Value     |
 | --------- | -------- | ------------------: | -------------: | --------- | ------------------ |

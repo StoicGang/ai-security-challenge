@@ -52,7 +52,7 @@ percentage_used = (token_count / context_window) * 100
 ### Ah-ha Moment
 <!-- The specific instant it clicked, and what made it click. -->
 - A context window can look huge when measured against one document, but the scale changes when I think about the complete AI workflow sharing that capacity.
-- $Context availability(Capacity) ≠ context understanding(Quality)$
+- $Contextavailability(Capacity) ≠ context understanding(Quality)$
 
 ### What I'd Do Differently
 <!-- If you redid today, what would you change? -->

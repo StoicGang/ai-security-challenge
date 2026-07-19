@@ -12,13 +12,13 @@ By Day 12: a working small RAG query - retrieve the right chunk from your own no
 
 ## Week Checklist
 ---
-- [ ] Day 1-5 Deliverables all exist exactly as specified in each day's README
-- [ ] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
-- [ ] This Week's Challenge demonstrably met
-- [ ] Week-02-Learning.md filled in (aggregate reflection)
-- [ ] Weekly quiz answered cold
-- [ ] Interview questions practiced out loud
-- [ ] Day 6 buffer used if anything ran long
+- [x] Day 1-5 Deliverables all exist exactly as specified in each day's README
+- [x] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
+- [x] This Week's Challenge demonstrably met
+- [x] Week-02-Learning.md filled in (aggregate reflection)
+- [x] Weekly quiz answered cold
+- [x] Interview questions practiced out loud
+- [x] Day 6 buffer used if anything ran long
 
 ---
 
@@ -32,18 +32,18 @@ By Day 12: a working small RAG query - retrieve the right chunk from your own no
 | DONE | [Day 011](Day-011/) | Vector Databases - Storing and Retrieving & Creating Micro usable code | 15 min |
 | DONE | [Day 012](Day-012/) | Week 2 Challenge - RAG Q&A | n/a |
 | DONE | [Day 013](Day-013/) | Week 2 Buffer and Review | 20-30 min |
-| TODO | [Day 014](Day-014/) | Week 2 to Week 3 Handoff | 10 min max |
+| DONE | [Day 014](Day-014/) | Week 2 to Week 3 Handoff | 10 min max |
 
 ## Weekly Quiz
 ---
-- [ ] Explain attention in 3 sentences without using the word 'context'.
-- [ ] Why does a vector DB return approximate, not exact, nearest neighbours?
+- [x] Explain attention in 3 sentences without using the word 'context'.
+> Attention allows each token to determine which other tokens are most relevant while building its representation. It assigns higher importance to tokens that contribute more to understanding the current token. This is like a selective approach where model captures the relationships and generate more accurate representation.
+- [x] Why does a vector DB return approximate, not exact, nearest neighbours?
+>Vector databases return approximate rather than exact. Nearest neighbors because comparing a query against every embedding becomes computationally heavy when database grows. Instead they use indexing algorithm to search only relevant regions in the vector space.
 
 ## Interview Questions
 ---
-- What is the difference between fine-tuning and RAG, and when would you choose one over the other for a security-sensitive application?
-- How does chunk size affect both answer quality and retrieval security?
-- What happens to context once it exceeds the context window?
+[Learning Log](./Week-02-Learning.md)
 
 ## A Note on Scope
 ---
