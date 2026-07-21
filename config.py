@@ -1,13 +1,17 @@
 from pathlib import Path
-import os 
+import os
 from dotenv import load_dotenv
 
-load_dotenv()
- 
 # Project Root
 ROOT_DIR = Path(__file__).resolve().parent
 
-# Environment variable
+# Load environment variables from the project's .env file
+load_dotenv(
+    dotenv_path=ROOT_DIR / ".env",
+    override=True,
+)
+
+# Environment Variables
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 GENAI_MODEL_NAME = os.getenv(

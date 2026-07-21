@@ -28,7 +28,7 @@ By Day 19: a single working agent that decides between two tools based on the us
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
 | DONE | [Day 015](Day-015/) | Function and Tool Calling Basics | 15-20 min |
-| TODO | [Day 016](Day-016/) | The Agent Loop - Plan, Act, Observe | 15 min |
+| DONE | [Day 016](Day-016/) | The Agent Loop - Plan, Act, Observe | 15 min |
 | TODO | [Day 017](Day-017/) | MCP Awareness | 10-15 min |
 | TODO | [Day 018](Day-018/) | Tool Scoping and Least Privilege | 0-10 min |
 | TODO | [Day 019](Day-019/) | Week 3 Challenge - Two-Tool Agent | n/a |

@@ -1,12 +1,5 @@
-from google import genai 
 from datetime import datetime
-from config import (
-    GEMINI_API_KEY,
-    GENAI_MODEL_NAME,
-)
 
-# Gemini Client
-client = genai.Client(api_key=GEMINI_API_KEY)
 
 #Tools
 def calculator(expression: str):
@@ -57,25 +50,7 @@ datetime_function = {
     }
 }
 
-
-interaction = client.interactions.create(
-    model=GENAI_MODEL_NAME,
-    input="Before answering, tell me the current date and time. Then calculate ((250 + 75) * 8) / 13.",
-    tools=[calculator_function, datetime_function],
-)
-
-for step in interaction.steps:
-    if step.type == "function_call":
-
-        if step.name == "calculator":
-            result = calculator(step.arguments["expression"])
-
-        elif step.name == "get_datetime":
-            result = get_datetime(step.arguments["format_type"])
-
-        else:
-            result = f"Unknown tool: {step.name}"
-
-        print(f"Tool Called : {step.name}")
-        print(f"Arguments   : {step.arguments}")
-        print(f"Result      : {result}\n")
+ALL_TOOLS = [
+    calculator_function,
+    datetime_function,
+]
