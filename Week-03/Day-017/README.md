@@ -54,7 +54,7 @@ Related the access contols priciples and MCP
 
 ### What I'd Do Differently
 <!-- If you redid today, what would you change? -->
-When evaluating an MCP server in the future, I would first classify everytool by its permission level(read, write, delete, execute) before looking at its functionalities.
+When evaluating an MCP server in the future, I would first classify every tool by its permission level(read, write, delete, execute) before looking at its functionalities.
 
 ### Residual Questions
 <!-- What still doesn't make sense? Carry this into tomorrow or the Day 6 buffer. -->
@@ -78,11 +78,11 @@ How are authentication and authorization handled between an MCP server and exter
 
 ## Day Checklist
 ---
-- [ ] Reading done (within time box - don't let one resource eat the whole day)
-- [ ] Build complete
-- [ ] Deliverable exists exactly as specified above
-- [ ] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
-- [ ] Committed to GitHub
+- [x] Reading done (within time box - don't let one resource eat the whole day)
+- [x] Build complete
+- [x] Deliverable exists exactly as specified above
+- [x] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
+- [x] Committed to GitHub
 
 ## References
 ---

@@ -40,7 +40,8 @@ Least privilege means giving a tool only the minimum permissions it needs to per
 <!-- 5-10 lines max, only if it illustrates the concept. Not the whole file. -->
 ```python
 def read_specific_file(): 
-    document_path = file_path( week=2, day=9, filename="article.md" ) return read_document(document_path)
+    document_path = file_path( week=2, day=9, filename="article.md" ) 
+    return read_document(document_path)
 ```
 
 ### Test Results
