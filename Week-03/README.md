@@ -13,13 +13,13 @@ By Day 19: a single working agent that decides between two tools based on the us
 ---
 
 ## Week Checklist
-- [ ] Day 1-5 Deliverables all exist exactly as specified in each day's README
-- [ ] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
-- [ ] This Week's Challenge demonstrably met
-- [ ] Week-03-Learning.md filled in (aggregate reflection)
-- [ ] Weekly quiz answered cold
-- [ ] Interview questions practiced out loud
-- [ ] Day 6 buffer used if anything ran long
+- [x] Day 1-5 Deliverables all exist exactly as specified in each day's README
+- [x] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
+- [x] This Week's Challenge demonstrably met
+- [x] Week-03-Learning.md filled in (aggregate reflection)
+- [x] Weekly quiz answered cold
+- [x] Interview questions practiced out loud
+- [x] Day 6 buffer used if anything ran long
 
 ---
 
@@ -33,13 +33,25 @@ By Day 19: a single working agent that decides between two tools based on the us
 | DONE | [Day 018](Day-018/) | Tool Scoping and Least Privilege | 0-10 min |
 | DONE | [Day 019](Day-019/) | Week 3 Challenge - Two-Tool Agent | n/a |
 | DONE | [Day 020](Day-020/) | Week 3 Buffer and Review | 20-30 min |
-| TODO | [Day 021](Day-021/) | Week 3 to Week 4 Handoff | 10 min |
+| DONE | [Day 021](Day-021/) | Week 3 to Week 4 Handoff | 10 min |
 
 ---
 
 ## Weekly Quiz
-- [ ] Draw the agent loop from memory - what are the 3 phases and what happens at each?
-- [ ] Name two ways an agent's tool access could be abused that have nothing to do with jailbreaking the model.
+
+- [x] Draw the agent loop from memory - what are the 3 phases and what happens at each?
+```Mermaid
+flowchart LR
+    A[User Request] --> B[Plan]
+    B -->|Decide whether a tool is needed| C[Act]
+    C -->|Invoke Calculator / Date-Time / File Tool| D[Observe]
+    D -->|Receive tool output| B
+    B -->|Enough information?| E[Final Response]
+```
+
+- [x] Name two ways an agent's tool access could be abused that have nothing to do with jailbreaking the model.
+1. An agent is given a file-reading tool that can access an entire directory instead of a single approved file.
+2. An agent is connected to a tool that can send emails, delete files, or execute shell commands without proper authorization checks.
 
 ## Interview Questions
 - What is the practical difference between a tool call and a function call?
