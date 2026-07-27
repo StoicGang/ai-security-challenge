@@ -27,7 +27,7 @@ By Day 26: a short, real red-team note - 2 documented findings against your own 
 
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
-| TODO | [Day 022](Day-022/) | OWASP LLM Top 10 - Categories 1 to 5 | 15 min |
+| DONE | [Day 022](Day-022/) | OWASP LLM Top 10 - Categories 1 to 5 | 15 min |
 | TODO | [Day 023](Day-023/) | OWASP LLM Top 10 - Categories 6 to 10 | 15 min |
 | TODO | [Day 024](Day-024/) | Direct Prompt Injection - Hands-On | 15-20 min |
 | TODO | [Day 025](Day-025/) | Indirect Prompt Injection - Hands-On | 10 min |
