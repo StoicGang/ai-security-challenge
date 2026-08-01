@@ -54,11 +54,11 @@ How do modern LLMs distinguish between legitimate user instructions and maliciou
 ---
 
 ## Day Checklist
-- [ ] Reading done (within time box - don't let one resource eat the whole day)
-- [ ] Build complete
-- [ ] Deliverable exists exactly as specified above
-- [ ] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
-- [ ] Committed to GitHub
+- [x] Reading done (within time box - don't let one resource eat the whole day)
+- [x] Build complete
+- [x] Deliverable exists exactly as specified above
+- [x] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
+- [x] Committed to GitHub
 
 ---
 
