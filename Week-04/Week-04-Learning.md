@@ -101,6 +101,22 @@ System prompts alone are not sufficient to defend against prompt injection attac
 
 >**Remember**: System prompts guide behavior; application security enforces it.
 
+### What is the practical difference between direct and indirect prompt injection from a defender's perspective?
+From a defender's perspective, indirect prompt injection is more difficult to defend against because the malicious instructions originate from external content, such as documents, web pages, emails, or retrieved data, rather than directly from the user. User input is already treated as untrusted, making it easier to apply validation and guardrails at the input boundary. In contrast, external content must also be treated as untrusted and prevented from influencing the model's behavior or tool usage. This requires additional security measures such as content isolation, tool restrictions, least privilege, and validation of model actions.
+
+>**Remember**: Treat both user input and external content as untrusted. The difference is that indirect prompt injection hides malicious instructions inside seemingly legitimate data, making it harder to detect and defend against.
+
+### Why can't prompt injection be patched the way SQL injection can?
+SQL injection can be largely prevented by separating code from data using parameterized queries, ensuring that user input is never executed as part of a SQL command. Large language models, however, process all input as natural language and do not have a strict separation between instructions and data. As a result, prompt injection cannot be eliminated with a single technical fix. Instead, AI applications require layered defenses such as least privilege, tool scoping, input and output validation, monitoring, and human approval for high-risk actions.
+
+>**Remember**: SQL databases know the difference between commands and data. LLMs reason over all text, so prompt injection must be mitigated through application-level security rather than a single patch.
+
+### What is excessive agency, and how does it compound injection risk?
+Excessive agency occurs when an AI system is given more permissions, tools, or autonomy than necessary to perform its task. If a prompt injection attack succeeds, the attacker can potentially abuse those capabilities to perform unintended or harmful actions, such as accessing sensitive data, calling privileged tools, or modifying resources. The greater the AI's permissions, the greater the potential impact of a successful prompt injection. Applying the principle of least privilege limits the damage by ensuring the AI only has access to the minimum capabilities required.
+
+>**Remember**: Prompt injection determines whether an attacker can influence the AI. Excessive agency determines how much damage that influence can cause.
+
+
 ## Mental Models
 ---
 

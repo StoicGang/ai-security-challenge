@@ -33,12 +33,12 @@ By Day 26: a short, real red-team note - 2 documented findings against your own 
 | DONE | [Day 025](Day-025/) | Indirect Prompt Injection - Hands-On | 10 min |
 | DONE | [Day 026](Day-026/) | Week 4 Challenge - Red-Team Notes | n/a |
 | DONE | [Day 027](Day-027/) | Week 4 Buffer and Review | 20-30 min |
-| TODO | [Day 028](Day-028/) | Week 4 to Week 5 Handoff | 5-10 min |
+| DONE | [Day 028](Day-028/) | Week 4 to Week 5 Handoff | 5-10 min |
 
 ---
 
 ## Weekly Quiz
-- [ ] Name and one-line-define all 10 OWASP LLM Top 10 categories from memory.
+- [x] Name and one-line-define all 10 OWASP LLM Top 10 categories from memory.
 
 ## Interview Questions
 - What is the practical difference between direct and indirect prompt injection from a defender's perspective?
