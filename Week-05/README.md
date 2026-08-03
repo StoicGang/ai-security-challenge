@@ -27,7 +27,7 @@ By Day 33: a short, practical AI Supply Chain Checklist (5 items) validated agai
 
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
-| TODO | [Day 029](Day-029/) | Model Extraction - Concept Only | 10 min |
+| DONE | [Day 029](Day-029/) | Model Extraction - Concept Only | 10 min |
 | TODO | [Day 030](Day-030/) | Data Poisoning - Concept Plus Light Hands-On | 10 min |
 | TODO | [Day 031](Day-031/) | Poisoning Impact - Hands-On | n/a |
 | TODO | [Day 032](Day-032/) | ML Supply Chain Basics | 10-15 min |
