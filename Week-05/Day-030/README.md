@@ -56,7 +56,7 @@ How does the position of the poisoned content within a document or chunk affect 
 - [x] Build complete
 - [x] Deliverable exists exactly as specified above
 - [x] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
-- [ ] Committed to GitHub
+- [x] Committed to GitHub
 
 ## References
 ---
