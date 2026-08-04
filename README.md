@@ -28,8 +28,8 @@ The Key Insight paragraph is the most important part. It must explain the **mech
 | Done | [Week 01](Week-01/) | AI Foundations | Python for AI · ML · Neural Networks · Tokenization · Embeddings | Day 001–007 |
 | Done | [Week 02](Week-02/) | Transformers, LLM Architecture & RAG | Attention · Transformer Blocks · Context Window · RAG · Vector Databases | Day 008–014 |
 | Done | [Week 03](Week-03/) | AI Agents, Tool Calling & MCP | Function Calling · Agent Loop · MCP · Multi-Agent Orchestration · Memory | Day 015–021 |
-| Partially | [Week 04](Week-04/) | Offense — OWASP LLM Top 10 & Prompt Injection | OWASP LLM Top 10 · Direct Injection · Indirect Injection · Jailbreaking · System Prompt Leakage | Day 022–028 |
-| ⬜ | [Week 05](Week-05/) | Offense — Extraction, Poisoning & Supply Chain | Model Extraction · Data Poisoning · Membership Inference · Adversarial ML · Supply Chain Risk | Day 029–035 |
+| Done | [Week 04](Week-04/) | Offense — OWASP LLM Top 10 & Prompt Injection | OWASP LLM Top 10 · Direct Injection · Indirect Injection · Jailbreaking · System Prompt Leakage | Day 022–028 |
+| Partially | [Week 05](Week-05/) | Offense — Extraction, Poisoning & Supply Chain | Model Extraction · Data Poisoning · Membership Inference · Adversarial ML · Supply Chain Risk | Day 029–035 |
 | ⬜ | [Week 06](Week-06/) | Defense — Secure AI SDLC & Threat Modeling | Secure AI SDLC · STRIDE for AI · Least-Privilege Tooling · Secrets Management · Structured Logging · Detection Rules | Day 036–042 |
 | ⬜ | [Week 07](Week-07/) | Governance — AI Auditing & Risk Management | NIST AI RMF · EU AI Act · AI Risk Register · Model Cards · System Cards · AI Audit Report | Day 043–049 |
 | ⬜ | [Week 08](Week-08/) | Portfolio, Interview Prep & Applications | Capstone Polish · Portfolio README · Resume Integration · Mock Interviews · Live Applications | Day 050–056 |
