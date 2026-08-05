@@ -2,8 +2,16 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
+
 # Project Root
 ROOT_DIR = Path(__file__).resolve().parent
+
+# Lab Artifacts
+LAB_ARTIFACTS_DIR = ROOT_DIR / "Lab-Artifacts"
+
+
+def lab_artifact_path(filename: str) -> Path:
+    return LAB_ARTIFACTS_DIR / filename
 
 # Load environment variables from the project's .env file
 load_dotenv(
