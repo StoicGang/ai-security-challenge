@@ -61,15 +61,15 @@ The effect: the perturbation is spread uniformly across every pixel in the image
 Write on Medium
 
 This is why adversarial examples look clean to the human eye. The attack is distributed too evenly to see.
+
 Part 4 ε (Epsilon), The Budget
 
-ε is a small number. Typically between 0.01 and 0.3.
+The recommended strategy when performing an FGSM attack is to always choose the largest possible ε. A larger epsilon always produces a more effective attack without meaningful practical drawbacks, making it the preferred choice for attackers.
 
-It controls how far each pixel is allowed to move. Think of it as the attacker’s budget. Spend more, the attack succeeds more reliably. Spend too much, the perturbation becomes visible to the human eye and the attack becomes detectable.
+ε is typically between 0.01 and 0.3 and controls how far each pixel is allowed to move. It acts as the attacker's budget.
 
-The attacker’s goal is to use the largest ε possible because a higher epsilon always produces a more effective attack without any practical drawbacks. In practice, increasing epsilon is the recommended strategy for maximizing attack success.
+A low epsilon attack (say 0.01) is nearly invisible but may not fully break the model. A high epsilon attack (say 0.3) is reliable but leaves visible grain in the image. In security terms, ε is the attacker's stealth dial.
 
-A low epsilon attack (say 0.01) is nearly invisible but may not fully break the model. A high epsilon attack (say 0.3) is reliable but leaves visible grain in the image. In security terms, ε is the attacker’s stealth dial.
 Putting It Together:One Step, Done
 
 Put all four parts back together:

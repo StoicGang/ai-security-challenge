@@ -5,7 +5,7 @@ def main():
     clean_document = lab_artifact_path("lab_artifact.md")
     poisoned_document = lab_artifact_path("lab_artifact_poisoned.md")
 
-    query = "What is FGSM and how epsilon affects FGSM?"
+    query = "How does epsilon affect FGSM?"
 
     clean_result = run_rag(
         document_path=clean_document,
@@ -15,6 +15,7 @@ def main():
     poisoned_result = run_rag(
         document_path=poisoned_document,
         query=query,
+        n_results=3,
     )
 
     print("\nQuestion:")

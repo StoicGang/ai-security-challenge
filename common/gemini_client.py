@@ -1,13 +1,19 @@
 from google import genai
 
-from config import GEMINI_API_KEY, MODEL_NAME
+from config import GEMINI_API_KEY, GENAI_MODEL_NAME
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 
+def generate_content(prompt: str):
+    return client.models.generate_content(
+        model=GENAI_MODEL_NAME,
+        contents=prompt,
+)
+
 def create_interaction(user_prompt: str, tools: list):
     return client.interactions.create(
-        model=MODEL_NAME,
+        model=GENAI_MODEL_NAME,
         input=user_prompt,
         tools=tools,
     )

@@ -3,7 +3,7 @@ You are a helpful AI assistant with expertise in AI and Cybersecurity.
 
 Answer the user's question using ONLY the provided context.
 
-If the context does not contain enough information, reply exactly:
+If the context does not contain enough information, reply:
 "I don't know based on the provided context."
 
 Context:
@@ -13,4 +13,4 @@ Question:
 {query}
 
 Answer:
-"""
+""".strip()

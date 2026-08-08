@@ -48,11 +48,12 @@ poisoned_result = run_rag(
 
 ### Key Learning
 <!-- The one thing you understand now that you didn't before today. -->
-Today's work established a reusable RAG pipeline that enables controlled comparison between a clean and a poisoned corpus. Although the final comparison could not be completed because the Gemini API returned a temporary 503 (high demand) error
+A RAG system can produce misleading answers without changing the model itself. Simply retrieving poisoned context was enough to influence the generated response. The experiment also showed that the final answer may contain a mix of correct and incorrect information because the retrieved context itself contained both.
 
 ### Ah-ha Moment
 <!-- The specific instant it clicked, and what made it click. -->
-
+The important realization was that the LLM did not invent the false information. It simply trusted the retrieved context. Once the poisoned chunk became part of the retrieval results, the generated answer reflected that misinformation while still preserving some surrounding correct facts.
+> **Note**: The complete experiment output, including the retrieved context and generated answers before and after poisoning, is documented in [experiment](experiment.md).
 
 ### What I'd Do Differently
 <!-- If you redid today, what would you change? -->
@@ -66,8 +67,8 @@ How much poisoning is actually required to influence retrieval and the final ans
 ---
 - [x] Reading done (within time box - don't let one resource eat the whole day)
 - [x] Build complete
-- [ ] Deliverable exists exactly as specified above
-- [ ] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
+- [x] Deliverable exists exactly as specified above
+- [x] Learning Log fully written (all 8 sections - this .md file IS the deliverable)
 - [x] Committed to GitHub
 
 ## References
