@@ -1,5 +1,27 @@
 # Week 5 Learning - AI Security Attacks on AI Models
 
+## STRIDE
+## STRIDE
+
+| Category                       | Security Principle                   | Remember It As                                                                      |
+| ------------------------------ | ------------------------------------ | ----------------------------------------------------------------------------------- |
+| **S — Spoofing**               | **Authentication**                   | **Who are you?** → Someone pretends to be another identity.                         |
+| **T — Tampering**              | **Integrity**                        | **Can you change it?** → Someone modifies data or system state.                     |
+| **R — Repudiation**            | **Accountability / Non-repudiation** | **Did you really do it?** → An action cannot be reliably attributed or proven.      |
+| **I — Information Disclosure** | **Confidentiality**                  | **Can you see it?** → Information reaches someone who should not see it.            |
+| **D — Denial of Service**      | **Availability**                     | **Can you break it?** → Resources are exhausted or the service becomes unavailable. |
+| **E — Elevation of Privilege** | **Authorization**                    | **Can you do more?** → Someone gains capabilities beyond what they should have.     |
+
+
+> **Memory Rule**
+>
+> **Who are you? → Can you change it? → Did you do it? → Can you see it? → Can you break it? → Can you do more?**
+>
+> **S → T → R → I → D → E**
+>
+> **Authentication → Integrity → Accountability → Confidentiality → Availability → Authorization**
+
+
 ## Core Concepts
 
 ---

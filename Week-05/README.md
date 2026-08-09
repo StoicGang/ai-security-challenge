@@ -33,7 +33,7 @@ By Day 33: a short, practical AI Supply Chain Checklist (5 items) validated agai
 | DONE | [Day 032](Day-032/) | ML Supply Chain Basics | 10-15 min |
 | DONE | [Day 033](Day-033/) | Week 5 Challenge - Supply Chain Checklist | n/a |
 | DONE | [Day 034](Day-034/) | Week 5 Buffer and Review | 20-30 min |
-| TODO | [Day 035](Day-035/) | Week 5 to Week 6 Handoff | 0-10 min |
+| DONE | [Day 035](Day-035/) | Week 5 to Week 6 Handoff | 0-10 min |
 
 ---
 
