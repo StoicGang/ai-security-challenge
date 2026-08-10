@@ -27,7 +27,7 @@ By Day 40: one Week 4 finding demonstrably fixed - the exact exploit attempt fro
 
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
-| TODO | [Day 036](Day-036/) | STRIDE for AI - Light Mapping | 0-10 min |
+| DONE | [Day 036](Day-036/) | STRIDE for AI - Light Mapping | 0-10 min |
 | TODO | [Day 037](Day-037/) | Mapping Week 4 Findings to Threats | n/a |
 | TODO | [Day 038](Day-038/) | Fixing One Vulnerability | n/a |
 | TODO | [Day 039](Day-039/) | Basic Structured Logging | n/a |
