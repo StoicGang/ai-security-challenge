@@ -86,3 +86,22 @@ ALL_TOOLS = [
     datetime_function,
     read_specific_file_function,
 ]
+
+TOOL_REGISTRY = {
+    "calculator": calculator,
+    "get_datetime": get_datetime,
+    "read_specific_file": read_specific_file
+}
+
+def execute_tool(tool_name: str, arguments: dict):
+    if tool_name not in TOOL_REGISTRY:
+        return f"Error: Tool '{tool_name}' is not registered."
+    
+    tool_function = TOOL_REGISTRY[tool_name]
+    
+    try:
+        return tool_function(**arguments)
+    except TypeError as e:
+        return f"Error: Invalid arguments provided for tool '{tool_name}'. Details: {str(e)}"
+    except Exception as e:
+        return f"Error executing tool '{tool_name}': {str(e)}"

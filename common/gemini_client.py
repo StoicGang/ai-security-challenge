@@ -19,9 +19,15 @@ def create_interaction(user_prompt: str, tools: list):
     )
 
 
-def continue_interaction(previous_interaction_id: str, function_results: list):
+def continue_interaction(
+    previous_interaction_id: str,
+    function_results: list,
+    tools: list,
+):
     return client.interactions.create(
+        model=GENAI_MODEL_NAME,
         previous_interaction_id=previous_interaction_id,
+        tools=tools,
         input=function_results,
     )
 
