@@ -13,13 +13,13 @@ By Day 40: one Week 4 finding demonstrably fixed - the exact exploit attempt fro
 ---
 
 ## Week Checklist
-- [ ] Day 1-5 Deliverables all exist exactly as specified in each day's README
-- [ ] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
-- [ ] This Week's Challenge demonstrably met
-- [ ] Week-06-Learning.md filled in (aggregate reflection)
-- [ ] Weekly quiz answered cold
-- [ ] Interview questions practiced out loud
-- [ ] Day 6 buffer used if anything ran long
+- [x] Day 1-5 Deliverables all exist exactly as specified in each day's README
+- [x] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
+- [x] This Week's Challenge demonstrably met
+- [x] Week-06-Learning.md filled in (aggregate reflection)
+- [x] Weekly quiz answered cold
+- [x] Interview questions practiced out loud
+- [x] Day 6 buffer used if anything ran long
 
 ---
 
@@ -32,19 +32,20 @@ By Day 40: one Week 4 finding demonstrably fixed - the exact exploit attempt fro
 | DONE | [Day 038](Day-038/) | Fixing One Vulnerability | n/a |
 | DONE | [Day 039](Day-039/) | Basic Structured Logging | n/a |
 | DONE | [Day 040](Day-040/) | Week 6 Challenge - Verified Fix Plus Changelog | n/a |
-| TODO | [Day 041](Day-041/) | Week 6 Buffer and Review | 20-30 min |
+| DONE | [Day 041](Day-041/) | Week 6 Buffer and Review | 20-30 min |
 | TODO | [Day 042](Day-042/) | Week 6 to Week 7 Handoff | 5-10 min |
 
 ---
 
 ## Weekly Quiz
-- [ ] Name the 6 STRIDE categories and give one AI-specific example of each.
+- [x] Name the 6 STRIDE categories and give one AI-specific example of each.
 
 ## Interview Questions
 - Walk through the AI threat model for one component - STRIDE category, mitigation, residual risk?
 - Why is logging the prompt and the tool call, not just the final output, necessary for AI system monitoring?
 - How do you scope an agent's tool permissions practically, not just in theory?
 
+> **Note**: Look for the [Learning file](Week-06-Learning.md)
 ---
 
 ## A Note on Scope
