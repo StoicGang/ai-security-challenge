@@ -33,7 +33,7 @@ By Day 40: one Week 4 finding demonstrably fixed - the exact exploit attempt fro
 | DONE | [Day 039](Day-039/) | Basic Structured Logging | n/a |
 | DONE | [Day 040](Day-040/) | Week 6 Challenge - Verified Fix Plus Changelog | n/a |
 | DONE | [Day 041](Day-041/) | Week 6 Buffer and Review | 20-30 min |
-| TODO | [Day 042](Day-042/) | Week 6 to Week 7 Handoff | 5-10 min |
+| DONE | [Day 042](Day-042/) | Week 6 to Week 7 Handoff | 5-10 min |
 
 ---
 
