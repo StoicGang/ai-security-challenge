@@ -28,7 +28,7 @@ By Day 47: a one-page AI Audit Summary combining your Week 4 finding, Week 6 fix
 | Status | Day | Topic | Read Time |
 |--------|-----|-------|-----------|
 | DONE | [Day 043](Day-043/) | NIST AI RMF - Govern (Light) | 10-15 min |
-| TODO | [Day 044](Day-044/) | NIST AI RMF - Map, Measure, Manage (Light) | 15 min |
+| DONE | [Day 044](Day-044/) | NIST AI RMF - Map, Measure, Manage (Light) | 15 min |
 | TODO | [Day 045](Day-045/) | EU AI Act Awareness (Light) | 10 min |
 | TODO | [Day 046](Day-046/) | System Card (Light) | 10 min |
 | TODO | [Day 047](Day-047/) | Week 7 Challenge - AI Audit Summary | n/a |

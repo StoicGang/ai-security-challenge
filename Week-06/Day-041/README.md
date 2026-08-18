@@ -27,9 +27,9 @@ Review the work from Days 36–40, identify any incomplete tasks or unresolved c
 ### Review Outcome
 
 Reviewed the Days 36–40 work and consolidated the remaining Week 6 questions into the weekly [learning file](./../Week-06-Learning.md). The main focus was connecting STRIDE categories to the actual security impact of an attack path, understanding the limits of prompt-level controls, and reasoning about tool scoping and security logging.
----
 
 ## Day Checklist
+---
 - [x] Reading done (within time box - don't let one resource eat the whole day)
 - [x] Build complete
 - [x] Deliverable exists exactly as specified above
