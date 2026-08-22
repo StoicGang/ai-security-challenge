@@ -13,13 +13,13 @@ By Day 47: a one-page AI Audit Summary combining your Week 4 finding, Week 6 fix
 ---
 
 ## Week Checklist
-- [ ] Day 1-5 Deliverables all exist exactly as specified in each day's README
-- [ ] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
-- [ ] This Week's Challenge demonstrably met
-- [ ] Week-07-Learning.md filled in (aggregate reflection)
-- [ ] Weekly quiz answered cold
-- [ ] Interview questions practiced out loud
-- [ ] Day 6 buffer used if anything ran long
+- [x] Day 1-5 Deliverables all exist exactly as specified in each day's README
+- [x] Day 1-5 Learning Logs all fully written (each day's README.md - not code files - is the actual deliverable)
+- [x] This Week's Challenge demonstrably met
+- [x] Week-07-Learning.md filled in (aggregate reflection)
+- [x] Weekly quiz answered cold
+- [x] Interview questions practiced out loud
+- [x] Day 6 buffer used if anything ran long
 
 ---
 
@@ -32,14 +32,14 @@ By Day 47: a one-page AI Audit Summary combining your Week 4 finding, Week 6 fix
 | DONE | [Day 045](Day-045/) | EU AI Act Awareness (Light) | 10 min |
 | DONE | [Day 046](Day-046/) | System Card (Light) | 10 min |
 | DONE | [Day 047](Day-047/) | Week 7 Challenge - AI Audit Summary | n/a |
-| TODO | [Day 048](Day-048/) | Week 7 Buffer and Review | 20-30 min |
+| DONE | [Day 048](Day-048/) | Week 7 Buffer and Review | 20-30 min |
 | TODO | [Day 049](Day-049/) | Week 7 to Week 8 Handoff | 15 min |
 
 ---
 
 ## Weekly Quiz
-- [ ] Name NIST AI RMF's four core functions from memory.
-- [ ] What is the difference between a model card and a system card?
+- [x] Name NIST AI RMF's four core functions from memory.
+- [x] What is the difference between a model card and a system card?
 
 ## Interview Questions
 - What is the difference between AI security and AI governance, and why do both matter to a hiring team?
