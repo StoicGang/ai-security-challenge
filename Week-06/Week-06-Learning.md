@@ -1,4 +1,4 @@
-# Week 3 Learning — AI Agents and Tool Calling
+# Week 6- STRIDE categories
 
 ## STRIDE 
 ---
